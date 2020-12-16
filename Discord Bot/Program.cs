@@ -29,7 +29,7 @@ namespace DiscordBot
                 .AddSingleton(_commands)
                 .BuildServiceProvider();
 
-            string token = "Nzg4MzcyMTg0NTE0OTUzMjQ4.X9ii0A.7I_s6qh_gZq6_qGbtYd-8L7UMlU";
+            string token = "TOTALLY-MY-TOKEN";
 
             _client.Log += _client_Log;
 
