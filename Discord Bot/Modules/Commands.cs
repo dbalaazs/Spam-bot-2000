@@ -13,7 +13,6 @@ namespace DiscordBot.Modules
     public class Commands : ModuleBase<SocketCommandContext>
     {
         [Command("sp")]
-
         public async Task Sp(string message, string number)
         {
             bool isNum = Int32.TryParse(number, out int result);
